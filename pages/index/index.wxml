@@ -1,0 +1,29 @@
+<view class="container">
+    <view class="search-box">
+        <view class="search-box-lf">
+            <image mode="aspectFit" src="../../images/search.png"></image>
+            <input class="search-input" placeholder="搜索话题, 问题或人" placeholder-class="search-placeholder" />
+        </view>
+        <view class="search-box-ri">
+            <image src="../../images/lighting.png"></image>
+        </view>
+    </view>
+
+
+    <view wx:for="{{ feed }}" wx:for-item="item" wx:for-index="idx" wx:key="idx" class="feed-item">
+        <view class="feed-header">
+            <view class="left">
+                <image class="face" mode="aspectFit" src="{{item.feed_source_img}}"></image>
+                <text class="text">{{ item.feed_source_name + item.feed_source_txt }}</text>
+            </view>
+
+            <image class="icon-more" mode="aspectFit" src="../../images/more.png"></image>
+        </view>
+
+        <view class="body">
+            <text class="title" bindtap="goQuestion">{{ item.question }}</text>
+            <text class="main">{{ item.answer_ctnt }}</text>
+            <text class="cda">{{ item.good_num }}赞同 • {{ item.comment_num }}评论 • 关注问题</text>
+        </view>
+    </view>
+</view>
