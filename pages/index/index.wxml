@@ -22,7 +22,7 @@
 
         <view class="body">
             <text class="title" bindtap="goQuestion">{{ item.question }}</text>
-            <text class="main">{{ item.answer_ctnt }}</text>
+            <text class="main"  bindtap="goAnswer">{{ item.answer_ctnt }}</text>
             <text class="cda">{{ item.good_num }}赞同 • {{ item.comment_num }}评论 • 关注问题</text>
         </view>
     </view>

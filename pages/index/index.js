@@ -25,6 +25,11 @@ Page({
       url: '../question/question' 
     })
   },
+  goAnswer() {
+    wx.navigateTo({
+      url: '../answer/answer',
+    })
+  },
   // 监听下拉
   onPullDownRefresh() { 
     this.upper()

@@ -1,22 +1,30 @@
 {
-  "condition": {
-    "plugin": {
-      "list": []
-    },
-    "game": {
-      "list": []
-    },
-    "gamePlugin": {
-      "list": []
-    },
-    "miniprogram": {
-      "list": [
-        {
-          "name": "pages/question/question",
-          "pathName": "pages/question/question",
-          "scene": null
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "pages/question/question",
+                    "pathName": "pages/question/question",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/answer/answer",
+                    "pathName": "pages/answer/answer",
+                    "query": "",
+                    "scene": null
+                }
+            ]
         }
-      ]
     }
-  }
 }

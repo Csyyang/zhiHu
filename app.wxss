@@ -60,3 +60,7 @@ ad {
     height: 44rpx;
     border-radius: 50%;
   }
+
+.block {
+    display: block;
+}

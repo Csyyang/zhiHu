@@ -1,0 +1,103 @@
+.answer {
+}
+
+.title-box {
+    background: #298DE5;
+    position: relative;
+    padding: 40rpx 50rpx 90rpx;
+    color: #fff;
+    font-size: 38rpx;
+}
+
+.auther-box {
+    position: absolute;
+    color: black;
+    width: 100%;
+    left: 0;
+    bottom: -77rpx;
+    padding: 0 30rpx;
+}
+.auther-context {
+    background-color: #fff;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 2rpx 4rpx #bebebe;
+    padding: 30rpx 0;
+}
+
+.auther-text {
+    width: 400rpx;
+}
+
+.auther-buttom {
+    display: block;
+    color: #40bcd0;
+    border: 4rpx solid #40bcd0;
+    font-size: 22rpx;
+    padding: 15rpx 14rpx;
+    border-radius: 6rpx;
+}
+
+.auther-image {
+    flex: 0 0 auto;
+    width: 90rpx;
+    height: 90rpx;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 32rpx;
+    line-height: 32rpx;
+}
+
+.desc {
+    color: #808080;
+    font-size: 22rpx;
+    line-height: 22rpx;
+}
+
+
+.answer-body {
+    padding: 55rpx 40rpx 30rpx;
+}
+
+.static-box {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 100vw;
+    height: 112rpx;
+    z-index: 10000;
+    background-color: #fff;
+    border-top: 1rpx solid #ebebeb;
+    justify-content: space-around;
+    align-items: center;
+}
+.agree {
+    border: 1px solid #d1d1d1;
+    width: 128rpx;
+    height: 64rpx;
+    font-size: 16rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+.static-image {
+    height: 38rpx;
+    width: 38rpx;
+}
+.static-image2 {
+    height: 50rpx;
+    width: 50rpx;
+}
+
+.static-text {
+    font-size: 14rpx;
+    color: #bebebe;
+    text-align: center;
+}
