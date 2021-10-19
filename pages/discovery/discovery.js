@@ -10,7 +10,7 @@ Page({
     },
     changeAC(e) {
         this.setData({
-            isActive: e.currentTarget.dataset.index
+            isActive: e.detail.active
         })
     },
     onLoad() {

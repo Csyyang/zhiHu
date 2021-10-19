@@ -1,0 +1,30 @@
+.tab {
+    width: 100vw;
+    height: 100rpx;
+    background-color: #298DE5;
+    color: #8ccefd;
+    box-shadow: 0 4rpx 4rpx #bebebe;
+    z-index: 100000;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.item {
+    flex: 1 1 auto;
+}
+
+.text {
+    font-size: 28rpx;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.underline {
+    border-bottom: 4rpx solid #fff;
+    color: #fff;
+}

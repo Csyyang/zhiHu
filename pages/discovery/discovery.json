@@ -1,3 +1,6 @@
 {
-    "navigationBarTitleText": ""
+    "navigationBarTitleText": "",
+    "usingComponents": {
+        "tap-component": "/components/tap/tap-component"
+    }
 }
