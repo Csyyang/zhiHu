@@ -1,0 +1,21 @@
+<view class="more">
+	<view class="user-box">
+		<view class="user-context">
+			<image class="user-avatar" src="{{avatatUrl}}" />
+			<view>
+				<view class="username">{{ nickName }}</view>
+				<view class="dec">查看或编辑个人主页</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="list">
+		<view class="list-item" wx:for="{{ list }}" wx:key="index">
+			<image class="list-icon" mode="aspectFit" src="{{ item.icon  }}" />
+			<view class="type">{{ item.type }}</view>
+
+		</view>
+
+	</view>
+
+</view>
