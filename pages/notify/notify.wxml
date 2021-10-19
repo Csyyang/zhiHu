@@ -1,0 +1,36 @@
+<view class="notify">
+	<tap-component tabList="{{ tabList }}" isActive="{{isActive}}" bindactive="changeAC"></tap-component>
+
+
+
+  
+	<view class="notify-list" wx:if="{{ isActive===0 }}">
+		<view class="notify-title">
+			<text class="notify-text">0条未读</text>
+			<image class="notify-img" src="../../images/allread.png"></image>
+		</view>
+
+		<view class="notify-context">
+			<view class="notify-item" wx:for="{{ 10 }}" wx:key="index">
+				<image class="notify-user" src="../../images/icon1.jpeg"/>
+				<view>
+					<view class="text1">Rebecca 回答了问题 </view>
+					<view class="text2">如何在不覆盖原有文件的情况下直接修改某一部分的内容？</view>
+				</view>
+
+			</view>
+
+		</view>
+	</view>
+
+
+    <view wx:if="{{ isActive===1 }}">
+        赞与感谢
+    </view>
+
+    <view wx:if="{{ isActive===2 }}">
+        关注
+    </view>
+      
+
+</view>

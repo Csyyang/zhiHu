@@ -1,5 +1,7 @@
-<tap-componetns class="tab">
-	<view bindtap="changeAC" wx:for="{{ tabList }}" data-index="{{index}}" wx:key="index" class="item {{ isActive===index?'underline':'' }}">
-		<text class="text">{{item}}</text>
+<tap-componetns>
+	<view  class="tab">
+		<view bindtap="changeAC" wx:for="{{ tabList }}" data-index="{{index}}" wx:key="index" class="item {{ isActive===index?'underline':'' }}">
+			<text class="text">{{item}}</text>
+		</view>
 	</view>
 </tap-componetns>
