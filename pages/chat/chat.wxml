@@ -1,0 +1,21 @@
+<view class="chat">
+	<view class="chat-item">
+		<image class="face40" src="../../images/icon8.jpg"></image>
+		<view>
+			<view>Alex</view>
+			<view class="text">你好~你好~你好</view>
+		</view>
+		<view class="chat-time">1个月前</view>
+
+	</view>
+
+	<view class="chat-item">
+		<image class="face40" src="../../images/icon9.jpeg"></image>
+		<view>
+			<view>Georq</view>
+			<view class="text">你好~你好~你好</view>
+		</view>
+		<view class="chat-time">3个月前</view>
+
+	</view>
+</view>
