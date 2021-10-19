@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/question/question",
-    "pages/answer/answer"
+    "pages/answer/answer",
+    "pages/discovery/discovery"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -31,7 +32,7 @@
         "selectedIconPath": "images/index_focus.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/discovery/discovery",
         "text": "",
         "iconPath": "images/discovery.png",
         "selectedIconPath": "images/discovery_focus.png"

@@ -1,0 +1,46 @@
+<view class="discovery">
+	<view class="tab">
+		<view bindtap="changeAC" wx:for="{{ tabList }}" data-index="{{index}}" wx:key="index" class="item {{ isActive===index?'underline':'' }}">
+			<text class="text">{{item}}</text>
+		</view>
+	</view>
+
+	<block wx:if="{{ isActive=== 0 }}">
+		<swiper class="imags">
+			<swiper-item wx:for="{{ images }}" class="">
+				<image class="image" src="{{ item }}" />
+			</swiper-item>
+
+		</swiper>
+
+
+		<view wx:for="{{ feed }}" wx:for-item="item" wx:for-index="idx" wx:key="idx" class="feed-item">
+			<view class="feed-header">
+				<view class="left">
+					<image class="face" mode="aspectFit" src="{{item.feed_source_img}}"></image>
+					<text class="text2">{{ item.feed_source_name + item.feed_source_txt }}</text>
+				</view>
+
+				<image class="icon-more" mode="aspectFit" src="../../images/more.png"></image>
+			</view>
+
+			<view class="body">
+				<text class="title" bindtap="goQuestion">{{ item.question }}</text>
+				<text class="main"  bindtap="goAnswer">{{ item.answer_ctnt }}</text>
+				<text class="cda">{{ item.good_num }}赞同 • {{ item.comment_num }}评论 • 关注问题</text>
+			</view>
+		</view>
+	</block>
+
+	<view wx:if="{{ isActive=== 1 }}">
+		圆桌
+	</view>
+	<view wx:if="{{ isActive=== 2 }}">
+		热门
+	</view>
+	<view wx:if="{{ isActive=== 3 }}">
+		收藏
+	</view>
+
+
+</view>

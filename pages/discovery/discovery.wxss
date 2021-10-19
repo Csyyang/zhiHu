@@ -1,0 +1,90 @@
+.discovery {
+    padding-top: 100rpx;
+}
+
+.tab {
+    width: 100vw;
+    height: 100rpx;
+    background-color: #298DE5;
+    color: #8ccefd;
+    box-shadow: 0 4rpx 4rpx #bebebe;
+    z-index: 100000;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.item {
+    flex: 1 1 auto;
+}
+
+.text {
+    font-size: 28rpx;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.underline {
+    border-bottom: 4rpx solid #fff;
+    color: #fff;
+}
+
+.imags {
+   height: 374rpx;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.feed-item {
+    padding: 20rpx 30rpx;
+    margin: 6rpx 0;
+    height: 316rpx;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 2px 5px #eee;
+  }
+  .feed-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .text2 {
+    font-size: 26rpx;
+    color: #a0acac;
+    margin-left: 14rpx;
+  }
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  .icon-more {
+    width: 40rpx;
+    height: 40rpx;
+  }
+  .title {
+    font-size: 28rpx;
+    font-weight: 600;
+    display: block;
+  }
+  .main {
+    display: block;
+    font-size: 24rpx;
+    color: #5b5b5b;
+    margin-top: 10rpx;
+  }
+  .body {
+    margin-top: 10rpx;
+  }
+  .cda {
+    margin-top: 10rpx;
+    font-size: 24rpx;
+    color: #a0acac;
+  }
